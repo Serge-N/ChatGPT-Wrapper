@@ -1,8 +1,8 @@
 namespace ChatGPT
 {
-  public partial class Form1 : Form
+  public partial class WorkChat : Form
   {
-    public Form1()
+    public WorkChat()
     {
       InitializeComponent();
 
@@ -10,7 +10,7 @@ namespace ChatGPT
 
     }
 
-    private void Form1_Load(object sender, EventArgs e)
+    private void Work_Load(object sender, EventArgs e)
     {
 
     }

@@ -1,6 +1,6 @@
 ﻿namespace ChatGPT
 {
-  partial class Form1
+  partial class WorkChat
   {
     /// <summary>
     ///  Required designer variable.
@@ -45,15 +45,15 @@
       this.webView21.ZoomFactor = 1D;
       this.webView21.Click += this.webView21_Click;
       // 
-      // Form1
+      // WorkChat
       // 
       this.AutoScaleDimensions = new SizeF(10F, 25F);
       this.AutoScaleMode = AutoScaleMode.Font;
       this.ClientSize = new Size(800, 450);
       this.Controls.Add(this.webView21);
-      this.Name = "Form1";
-      this.Text = "Form1";
-      this.Load += this.Form1_Load;
+      this.Name = "WorkChat";
+      this.Text = "ChatGPT";
+      this.Load += this.Work_Load;
       ((System.ComponentModel.ISupportInitialize)this.webView21).EndInit();
       this.ResumeLayout(false);
     }
